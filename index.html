@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form - Game of Thrones</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <body>
+    <header>
+      <div class="text-box">
+        <h1 id="title"> Game of Thrones Survey Form</h1>
+        <hr>
+        <p id="description">Tell us what kind of fan you are!</p>
+      </div>
+    </header>
+    <div class="container">
+      <form id="survey-form" method="post">
+        <div class="labels">
+          <fieldset id="field">
+            <legend>Personal information:</legend>
+            <br>
+            <label for="name" id="name-label"><strong>Name:</strong></label><br>
+            <input class="input-tab" type="text" name="name" placeholder="Enter your name" required autofocus>
+            <br><br>
+            <label for="email" id="email-label"><strong>Email:</strong></label><br>
+            <input class="input-tab" type="email" name="email" placeholder="Enter your Email" required>
+            <br><br>
+            <label for="number" id="number-label"><strong>Age:</strong></label><br>
+            <div class="input-tab">
+              <input class="input-field" type="number" id="number" name="number" min="1" max="120" placeholder="18"
+                required></div>
+            <br>
+            <strong>Gender:</strong><br>
+            <input type="radio" name="gender" value="male" checked>Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+          </fieldset>
+        </div>
+        <br>
+        <fieldset id="field">
+          <div class="labels">
+            <label>
+              <p><strong>Your favorite character(s):<br><em>(check all that apply)</em></strong></p>
+            </label>
+          </div>
+          <br>
+          <div class="input-char">
+            <input type="checkbox" name="jonsnow" value="jonsnow">Jon Snow<br>
+            <input type="checkbox" name="daenerys" value="daenerys">Daenerys Targaryan<br>
+            <input type="checkbox" name="cersei" value="cersei">Cersei Lannister<br>
+            <input type="checkbox" name="tyrion" value="tyrion">Tyrion Lannister<br>
+            <input type="checkbox" name="jaime" value="jaime">Jaime Lannister<br>
+            <input type="checkbox" name="arya" value="arya">Arya Stark<br>
+            <input type="checkbox" name="sansa" value="sansa">Sansa Stark<br>
+            <input type="checkbox" name="joff" value="joff">Joffrey Baratheon<br>
+            <input type="checkbox" name="theon" value="theon">Theon Greyjoy<br>
+            <input type="checkbox" name="hound" value="hound">Sandor "The Hound" Clegane<br>
+            <input type="checkbox" name="jorah" value="jorah">Jorah Mormont<br>
+            <input type="checkbox" name="brie" value="brie">Brienne of Tarth<br>
+            <input type="checkbox" name="other" value="other">Other<br>
+          </div>
+          <div class="labels">
+            <label for="dropdown">
+              <p><strong>How do you watch Game of Thrones?</strong></p>
+            </label></div>
+          <div class="input-tab">
+            <select id="dropdown" name="site">
+              <option disabled value selected>Select an option</option>
+              <option value="web">Internet</option>
+              <option value="tv">TV</option>
+              <option value="hulu">Hulu</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="labels">
+            <label>
+              <p><strong>How much do you like Game of Thrones?</strong></p>
+            </label></div>
+          <div class="input-tab">
+            <input type="radio" name="radio-button" value="love">I love it!<br>
+            <input type="radio" name="radio-button" value="like">I like it<br>
+            <input type="radio" name="radio-button" value="ok">It's ok<br>
+            <input type="radio" name="radio-button" value="nah">Not really<br>
+          </div>
+          <div class="labels">
+            <label for="comments">
+              <p><strong>Tell us more about your favorite character(s) or episode(s)</strong></p>
+            </label></div>
+          <div class="input-tab">
+            <textarea class="input-field" id="comments" name="comments" rows="10" cols="40"
+              placeholder="Your comments..."></textarea></div>
+        </fieldset>
+        <br>
+        <div class="sub">
+          <button type="submit">Submit</button>
+        </div>
+    </div>
+    </form>
+  </body>
+  <!-- partial -->
+
+</body>
+
+</html>

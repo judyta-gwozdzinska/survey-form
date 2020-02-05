@@ -1,0 +1,100 @@
+body {
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+  background-color: transparent;
+  margin: 10px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://cdn.onebauer.media/one/media/5dc2/ee88/8e9e/58b3/6d8d/257f/IronDragonThrone.jpeg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg) center no-repeat fixed;
+  
+}
+h1 {
+  font-size: 40px;
+}
+
+hr {
+  width: 80%;
+  margin: auto;
+}
+p {
+  font-size: 17px;
+  font-style: italic;
+}
+#field {
+  margin: auto; 
+  width: 90%;
+  justify-content: center;
+  font-size: 17px;
+}
+.text-box {
+background-color: hsl(0, 50%, 50%, 0.5);
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 70%;
+}
+.container {
+  background-color: hsl(0, 100%, 100%, 0.5);
+  border-radius: 10px;
+  margin: 2em auto;
+  padding: 10px;
+  width: 70%;
+}
+.labels {
+display: inline-block;
+  text-align: left;
+  width: 100%;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+}
+.input-tab {
+  display: block;
+  text-align: left;
+  width: 50%;
+  word-spacing: 2px;
+  font-size: 15px;
+}
+.input-char {
+  display: block;
+  text-align: left;
+  width: 100%;
+  word-spacing: 2px;
+  font-size: 15px;
+}
+#dropdown {
+  width: 100%;
+  padding: 5px; 
+  font-size: 15px;
+  font-family: sans-serif;
+}
+  button {
+  background-color: #DEB887;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 10px 10px;
+  border: 1px solid;
+}
+  button:hover {
+  background-color: #D2691E;
+}
+.sub {
+  width: 100%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.input-field {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 10px 0px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-align: left;
+  font-family: sans-serif;
+}
